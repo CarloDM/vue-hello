@@ -8,7 +8,7 @@ createApp({
       stileFoto: ['width: 60%; dispaly: block', ' dispaly: block'], /* ???? perchè non funziona */
       classeFoto: 'disp_img',
 
-      userMessage:'scrive utente',
+      userMessage:'prova enter',
       messEnter:'',
     }
   },

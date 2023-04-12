@@ -18,12 +18,14 @@
       <p>{{userMessage}}</p>
       <!-- <img src="{{image}}" alt=""> COSI NO! Serve V-bind (permette di inserire una variabile dentro attributo di un tag) -->
       <img :src="image" alt="" :class="classeFoto" >
-
-      <input @keyup="tastiera" @keyup.Enter="invio" id="in1" type="text" v-model="userMessage" style="display: block; margin: auto;">
-
+      
       <button @click="saluta">saluta</button>
 
       <h2>{{messEnter}}</h2>
+      
+      <input @keyup="tastiera" @keyup.Enter="invio" id="in1" type="text" v-model="userMessage" style="display: block; margin: auto;">
+
+
 
     </div>
 
