@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: monospace;
 }
@@ -14,4 +13,8 @@ body {
   margin:  20px auto;
   width: 90vw;
   background-color: rgb(204, 204, 204);
+}
+
+.my_container {
+  text-align: center;
 }
