@@ -9,6 +9,11 @@ createApp({
 
       userMessage:'scrive utente'
     }
+  },
+  methods: {
+    saluta: function() {
+      return this.message = 'ciao'
+    }
   }
 }).mount('#app')
 
