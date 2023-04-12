@@ -18,3 +18,9 @@ body {
 .my_container {
   text-align: center;
 }
+
+.disp_img {
+  margin: auto;
+  width: 60%;
+  display: block;
+}
