@@ -12,7 +12,11 @@ createApp({
   },
   methods: {
     saluta: function() {
-      return this.message = 'ciao'
+      return this.message = 'ciao!!!',
+              console.log('hai cliccato saluta')
+    },
+    tastiera(){
+      
     }
   }
 }).mount('#app')
