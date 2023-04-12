@@ -9,3 +9,9 @@
 body {
   font-family: monospace;
 }
+
+.main_container {
+  margin:  20px auto;
+  width: 90vw;
+  background-color: rgb(204, 204, 204);
+}
