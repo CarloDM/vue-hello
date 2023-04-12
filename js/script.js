@@ -5,7 +5,9 @@ createApp({
     return {
       message: 'Hello Vue!!',
       image: 'https://salumigombitelli.it/wp-content/uploads/2017/03/fabian-blank-67318-1.jpg',
-      stileFoto: 'width: 60%;'
+      stileFoto: ['width: 60%; dispaly: block', ' dispaly: block'], /* ???? perchè non funziona */
+
+      userMessage:'scrive utente'
     }
   }
 }).mount('#app')
